@@ -74,16 +74,16 @@ window.addEventListener('scroll', scrollActive)
 /*=============== SCROLL REVEAL ANIMATION ===============*/
 const sr = ScrollReveal({
     duration: 1300,
-    delay: 100,
+    delay: 300,
     reset: true 
 })
 
-sr.reveal(`.home__description,.home__btn`,{delay: 300,distance: '30px'})
+sr.reveal(`.home__description, .home__title,.home__btn`,{delay: 500,distance: '100px',origin: 'bottom})
 sr.reveal(` .app__data`,{delay: 300,origin:'right',distance: '10px'})
-sr.reveal(`.home__img img,.about__container,.Testimonials`,{delay: 100, origin: 'top',distance: '50px'})
+sr.reveal(`.home__img img,.about__container,.Testimonials`,{delay: 500, origin: 'top',distance: '100px'})
 sr.reveal(`.footer__link h5`,{distance: '500px', origin: 'top' ,duration: 500})
 sr.reveal(`.service__item1 `,{origin: 'top', delay: 20, interval: 200,distance: '50px'})
-sr.reveal(`.service__item2 div, .car__card, .footer__link, .btn-More button`,{origin: 'bottom',distance: '40px',delay: 40 })
+sr.reveal(`.service__item2 div, .car__card, .footer__link, .btn-More button`,{origin: 'bottom',distance: '40px',delay: 300 })
 sr.reveal (`.app__img img `,{origin: 'left' ,delay: 20, distance: '50px'})
 
 
