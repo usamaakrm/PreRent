@@ -1416,7 +1416,6 @@
       #img2{
         width: 78px;
       }
-
       .app__play img{
         width: 95px;
       }
@@ -1438,6 +1437,7 @@
       }
 
       /* .link__item{
+        margin-top: 4rem;
         grid-template-columns: auto auto;
         grid-template-rows: 12rem 12rem;
       } */
