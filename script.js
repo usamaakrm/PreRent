@@ -78,7 +78,7 @@ const sr = ScrollReveal({
     reset: true 
 })
 
-sr.reveal(`.home__data`,{delay: 500,distance: '100px',origin: 'bottom'})
+sr.reveal(`.home__data, .home__btn`,{delay: 1000,distance: '200px',origin: 'bottom'})
 sr.reveal(` .app__data`,{origin:'right',distance: '30px', delay: 300})
 sr.reveal(`.home__img img,.about__container,.Testimonials`,{delay: 500, origin: 'top',distance: '100px'})
 sr.reveal(`.footer__link h5`,{distance: '500px', origin: 'top' ,duration: 500,delay: 400})
