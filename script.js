@@ -78,12 +78,12 @@ const sr = ScrollReveal({
     reset: true 
 })
 
-sr.reveal(`.home__data, .home__btn`,{delay: 1000,distance: '200px',origin: 'bottom'})
+sr.reveal(`.home__data, .home__btn`,{delay: 500,distance: '200px',origin: 'bottom'})
 sr.reveal(` .app__data`,{origin:'right',distance: '30px', delay: 300})
 sr.reveal(`.home__img img,.about__container,.Testimonials`,{delay: 500, origin: 'top',distance: '100px'})
-sr.reveal(`.footer__link h5`,{distance: '500px', origin: 'top' ,duration: 500,delay: 400})
+sr.reveal(`.footer__link h5`,{distance: '300px', origin: 'top' ,duration: 500,delay: 400})
 sr.reveal(`.service__item1 `,{origin: 'top', delay: 100,distance: '200px'})
-sr.reveal(`.service__item2 div, .car__card, .footer__link, .btn-More button`,{origin: 'bottom',distance: '100px',delay: 500 })
+sr.reveal(`.service__item2 div, .car__card, .footer__link, .btn-More button`,{origin: 'bottom',distance: '300px',delay: 500 })
 sr.reveal(`.app__img img `,{origin: 'left' ,delay: 300, distance: '100px'})
 
 
